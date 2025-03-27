@@ -1,0 +1,3 @@
+Dette er et repo til en præsentation om kernekraft.
+
+Selve præsentationen kan findes her: https://jacobebel.github.io/kernekraft.
