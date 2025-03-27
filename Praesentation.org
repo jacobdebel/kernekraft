@@ -1,0 +1,324 @@
+#+title: Kernekraft
+#+subtitle: Studieretningsdag
+#+author: Jacob Debel
+#+date: 
+# Themes: beige|black|blood|league|moon|night|serif|simple|sky|solarized|white
+#+reveal_theme: night
+#+reveal_title_slide: <h2>%t</h2><h3>%s</h3><h4>%a</h4><h4>%d</h4>
+#+reveal_title_slide_background: ./img/kernekraft_intro.jpeg
+#+reveal_title_slide_background_position: bottom 20px center
+#+reveal_title_slide_background_size: 30%
+#+reveal_default_slide_background:
+#+reveal_extra_options: slideNumber:"c",progress:true,transition:"slide",navigationMode:"default",history:false,hash:true
+# #+reveal_extra_attr: style="color:red"
+#+options: toc:nil num:nil tags:nil timestamp:nil ^:{}
+
+* 4 naturkræfter
+#+attr_html: :width 500
+[[./img/four-forces-in-nature.jpg]]
+
+** Tyngdekraft
+#+reveal_html: <div style="font-size: 60%;">
+
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+#+attr_html: :width 150px
+[[./img/gravity_1.gif]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+$$F_t = m \cdot g$$
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+#+attr_html: :width 150px
+[[./img/gravity_2.gif]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+$$F_G = G \cdot \frac{M \cdot m}{r^2}$$
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+#+attr_html: :width 150px
+[[./img/gravity_3.gif]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+$$R_{\mu \nu} - \frac{1}{2}R g_{\mu \nu} + \Lambda g_{\mu \nu} = \kappa T_{\mu \nu}$$
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+reveal_html: </div>
+
+** Elektromagnetisme
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+#+attr_html: :width 250
+[[./img/em_2.gif]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+$$F_C = k \cdot \frac{q_1 \cdot q_2}{r^2}$$
+
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+#+attr_html: :width 250
+[[./img/em.gif]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+$$\vec{F} =q \cdot \vec{v} \times \vec{B}$$
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+** Den svage kernekraft
+#+reveal_html: <div style="font-size: 60%;">
+Står for radioaktive henfald.
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+[[./img/weak_force.gif]]
+
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+$\beta^-$ henfald
+
+$$n \to p + W^- \to p + e^- + \bar{\nu}_e$$
+
+#+attr_html: :width 400
+[[./img/feynman_beta_minus.png]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+reveal_html: </div>
+
+** Den stærke kernekraft
+#+reveal_html: <div style="font-size: 60%;">
+"Klistre" kvarker sammen til nukleoner (protoner og neutroner) og klistre nukleoner sammen til nuklider(atomkerner).
+
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+
+#+attr_html: :width 400
+[[./img/nucleus.gif]]
+#+attr_html: :width 200
+[[./img/nucleus-qrk.gif]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+#+attr_html: :width 200
+[[./img/Nuclear_Force_anim_smaller.gif]]
+
+#+reveal_html: </div>
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+* Isotoper
+$${}_Z^A X \quad \text{og} \quad A=Z+N$$
+
+Eksempler
+
+$${}_{92}^{235}U \quad {}_{94}^{239}Pu \quad {}_2^4He \quad {}_{1}^1H $$
+
+** [[https://kernekort.dk][kernekort.dk]]
+#+begin_export html
+<embed
+width="600"
+height="400"
+style="background-color:white"
+src="https://kernekort.dk/"
+title=""
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen>
+</embed>
+#+end_export
+
+* Bindingsenergi
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+[[./img/masse_per_nukleon.jpg]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+[[./img/Binding_energy.jpg]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+attr_reveal: :frag (appear)
+- Hvor kommer denne bindingsenergi fra?
+
+** Einstein to the rescue
+#+attr_html: :width 600
+[[./img/Einstein_knight.jpg]]
+
+** Massedefekt
+
+$$\boxed{E_\text{binding} = m_\text{defekt}\cdot c^2}$$
+
+$$m_\text{defekt} = Z \cdot m_p + N \cdot m_n + Z \cdot m_e - m_\text{atom}$$
+eller
+$$m_\text{defekt} = Z \cdot m_p + N \cdot m_n  - m_\text{kerne}$$
+
+*** Eksempel - Deuterium
+[[./img/deuterium.png]]
+
+*** Eksempel - Deuterium
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+
+
+- Find bestanddelene
+- Beregn massedefekten i u
+- Beregn bindingsenergien i MeV
+#+reveal_html: <div style="font-size: 90%;">
+  \begin{align*}
+  1 u &= 1.66054\cdot 10^{-27} \,kg \\
+  1 u \cdot c^2 &= 1.66054\cdot 10^{-27} \,kg \cdot (3\cdot 10^8 m/s)^2\\
+    &= 1.49 \cdot 10^{-10} J \\
+  1 MeV &= 1.602 \cdot 10^{-13} J \\
+  1 u \cdot c^2 &= \frac{1.49 \cdot 10^{-10}\, J}{1.602 \cdot 10^{-13}MeV/J} = 931.5 MeV
+  \end{align*}
+#+reveal_html: </div>
+- Del med antal nukleoner
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+#+reveal_html: <div style="font-size: 90%;">
+
+- ${}_1^2H$ er lig 1 proton (1.007825 u),  1 neutron (1.008665 u),  +1 elektron (0.000549 u)+ (ignoreres) og vejer $m_d = 2.014102 u$
+\begin{align*}
+m_\text{defekt} &= 1.007825 u + 1.008665 u - 2.014102 u = 0.002388 u \\
+E_\text{binding} &= m_\text{defekt} \cdot c^2 = 0.002388 u \cdot c^2 \\
+&= 0.002388 u \cdot 931.5 MeV/u = 2.224 MeV \\
+E_\text{binding} /A &= 2.224 MeV / 2 = 1.112 keV
+\end{align*}
+#+reveal_html: </div>
+
+#+attr_reveal: :frag (appear)
+- Udvælg selv et anden kerne fra kernekortet og eftervis bindingsenergien pr nukleon ved en tilsvarende beregning.
+- Hvordan udvinder vi så denne energi?
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+reveal_html: </div>
+
+
+* Fission
+[[./img/Fission_1.jpg]]
+
+** Fissionssimulator
+- Højreklik på billedet og åbn i en ny fane.
+
+#+attr_html: :width 500
+[[https://phet.colorado.edu/sims/cheerpj/nuclear-physics/latest/nuclear-physics.html?simulation=nuclear-fission][file:./img/phet.png]]
+
+** Mange datterkerner
+#+attr_html: :width 500
+[[./img/Fission_2.jpg]]
+
+** En kædereaktion
+#+attr_html: :width 450
+[[./img/Fission_3.jpg]]
+
+#+reveal_html: <div style="font-size: 60%;">
+#+attr_reveal: :frag (appear)
+- Hvor store er de frigivne energier?
+#+reveal_html: </div>
+
+** Q-værdier
+#+reveal_html: <div style="font-size: 60%;">
+$$\boxed{Q = - \Delta m \cdot c^2\,,}$$
+
+hvor $\Delta m = m_\text{efter}-m_\text{før}$
+
+*Jeg tager den første reaktion*
+$${}_{92}^{235}U + {}_1^0n \to {}_{92}^{236} U \to {}_{56}^{140} Ba + {}_{36}^{93} Kr + 3 \, {}_1^0 n$$
+
+\begin{align*}
+m_\text{efter} &= m_\text{Ba} + m_\text{Kr} + 3 \cdot m_n = 139.91061 u + 92.93115 u + 3 \cdot 1.00866 u &= 235.86774 u \\
+m_\text{før} = m_{U}+ m_n &= 235.04393 u + 1.00866 u =236.05259 u \\
+\Delta m &=m_\text{efter} - m_\text{før} = 235.86774 u -236.05259 u = -0.18485 u \\
+Q &= - \Delta m \cdot c^2 = -(-0.18485 u) \cdot 931.5 MeV/u = 172.18778 MeV.
+\end{align*}
+
+#+attr_reveal: :frag (appear)
+- Altså omkring 200 MeV per U-235 spaltning.
+- Prøv I at tage en af de andre viste reaktioner.
+#+reveal_html: </div>
+* Kernekraftværk
+#+reveal_html: <div style="font-size: 60%;">
+- (Højre-)Klik på billedet for at åbne simulatoren.
+- Undervejs vil I se nogle oplyste tal. I burde nu have en idé om, hvordan de er beregnet.
+#+reveal_html: </div>
+
+#+attr_html: :width 700
+[[https://dalton-nrs.manchester.ac.uk/][file:./img/kernekraftsimulator.png]]
+* Et livs energiforbrug
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+En gennemsnitsdansker bruger 117 GJ per år og har en forventet levetid på 81.8 år.
+
+1. Hvor meget energi bruger en gennemsnitsdansker på et helt liv?
+2. Hvor mange U-235 fissionsprocesser skal der til, for at dække dette energibehov?
+3. Hvor mange kg U-235 svarer dette til?
+4. Hvor meget fylder denne mængde U-235?
+5. Hvor mange kg U-235 skal der bruges for at dække dette energibehov?
+6. Hvor meget fylder denne mængde U-235?
+Et kernekraftværk benytter typisk beriget uran, hvor 3% er U-235 og 97% er U-238.
+7. [@7] Hvor meget vil den berigede uran fylde, for at dække et livs energiforbrug?
+
+#+reveal_html: </div>
+#+reveal_html: <div>
+
+[[./img/sodacans-wide.png]]
+
+- Eller læs mere [[https://whatisnuclear.com/calcs/how-much-nuclear-waste-per-capita.html][her]] og [[https://nyheter.ntnu.no/en/how-much-nuclear-fuel-do-i-need-for-my-lifetime-of-electricity-needs/][her]].
+#+reveal_html: </div>
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+
+* Downside?
+#+attr_html: :width 400
+[[./img/meme.jpg]]
+
+#+reveal_html: <div style="font-size: 60%;">
+#+attr_reveal: :frag (appear)
+- Det er datterkernerne, den er gal med!
+#+reveal_html: </div>
+
+* Radioaktiv stråling
+#+attr_html: :width 700
+[[./img/radiation.png]]
+
+* Hvad ville I vælge?
+#+attr_html: :width 450
+[[./img/kernekraft.jpeg]]
+
+#+reveal_html: <div style="font-size: 60%;">
+- Understøttende statistik: https://atomkraftbogen.dk/tal-og-statistik/
+#+reveal_html: </div>
+
+* Fremtidens danske reaktorer
+** Seaborg Technologies
+#+begin_export html
+<embed width="800" height="500" src="https://www.youtube.com/embed/oDQTq-99Ffw" title="De bygger atomkraft på Nørrebro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></embed>
+#+end_export
+
+
+** Copenhagen atomics
+#+begin_export html
+<iframe width="800" height="500" src="https://www.youtube.com/embed/FjHH8Qf3aO4" title="Is THORIUM the Future of Nuclear Power?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+#+end_export
