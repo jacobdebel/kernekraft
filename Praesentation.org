@@ -224,7 +224,7 @@ E_\text{binding} /A &= 2.224 MeV / 2 = 1.112 keV
 [[https://phet.colorado.edu/sims/cheerpj/nuclear-physics/latest/nuclear-physics.html?simulation=nuclear-fission][file:./img/phet.png]]
 
 ** Mange datterkerner
-#+attr_html: :width 500
+#+attr_html: :width 800
 [[./img/Fission_2.jpg]]
 
 ** En kædereaktion
