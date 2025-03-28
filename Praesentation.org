@@ -322,3 +322,24 @@ Et kernekraftværk benytter typisk beriget uran, hvor 3% er U-235 og 97% er U-23
 #+begin_export html
 <iframe width="800" height="500" src="https://www.youtube.com/embed/FjHH8Qf3aO4" title="Is THORIUM the Future of Nuclear Power?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 #+end_export
+
+* Atomic age 1945-1973
+#+attr_html: :width 800
+[[./img/atomic_age.jpg]]
+
+** Risø 1958-
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+#+attr_html: :width 300
+[[./img/risø_bohr_2.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+#+attr_html: :width 350
+[[./img/RISOE.jpg]]
+
+#+attr_html: :width 250
+[[./img/risø_bohr.jpeg]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+
