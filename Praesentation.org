@@ -343,3 +343,6 @@ Et kernekraftværk benytter typisk beriget uran, hvor 3% er U-235 og 97% er U-23
 #+reveal_html: </div>
 #+reveal_html: </div>
 
+** Mere historie
+#+attr_html: :width 400
+[[./dokumenter/2006_risoes_reaktorer_rapport.pdf][file:./img/risørapport.png]]
